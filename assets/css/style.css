@@ -108,7 +108,10 @@ header.shadow .logo {
   left: 0;
   transition: 0.4s all linear;
 }
-.navbar a.home-active::after,
+.navbar a.movies.active::after,
+.navbar a.coming.active::after,
+.navbar a.newsletter.active::after,
+.navbar a._home.active::after,
 .navbar a:hover::after {
   width: 100%;
 }
