@@ -4,12 +4,12 @@ body {
 }
 .container {
   background-color: #c4c4c4;
-  width: 1200px;
+  width: calc(100% - 72px);
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 30px;
+  transform: translate(-50%, -35%);
+  border-radius: 15px 15px 30px 30px;
   min-height: 70vh;
   overflow: hidden;
   display: grid;

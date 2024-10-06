@@ -32,6 +32,7 @@ section {
 /* ================== Common ================ */
 a {
   text-decoration: none;
+  color: #fff;
 }
 .btn {
   padding: 0.7rem 1.4rem;
@@ -335,6 +336,16 @@ footer {
     font-size: 3rem;
   }
 }
+@media (max-width: 988px) {
+  .newsletter form .email {
+    width: auto;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+  }
+}
 @media (max-width: 888px) {
   .header {
     padding: 12px 4%;
@@ -384,16 +395,7 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(190px, auto));
   }
 }
-@media (max-width: 988px) {
-  .newsletter form .email {
-    width: auto;
-  }
-  .footer {
-    flex-direction: column;
-    align-items: center;
-    row-gap: 1rem;
-  }
-}
+
 @media (max-width: 770px) {
   .header {
     padding: 6px 4%;
@@ -413,5 +415,11 @@ footer {
   }
   .box .box-img {
     height: 240px;
+  }
+}
+@media (max-width: 576px) {
+  .coming-container .box {
+    width: 80%;
+    height: 80%;
   }
 }
